@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+// comentário
 @Component({
   selector: 'app-root',
   template: `
