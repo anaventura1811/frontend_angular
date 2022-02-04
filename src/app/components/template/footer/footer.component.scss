@@ -1,7 +1,9 @@
-.header {
+.footer {
   display: flex;
+  position: fixed;
+  bottom: 0;
   align-items: center;
-  justify-self: start;
+  justify-content: flex-end;
   background-color: transparent;
   color:rgb(35, 34, 34);
 
@@ -19,7 +21,8 @@
     max-height: 32px;
   }
 
-  // i {
-  //   background-color: rgb(35, 34, 34);
-  // }
+  > span {
+    font-weight: 300;
+    font-size: 1rem;
+  }
 }
